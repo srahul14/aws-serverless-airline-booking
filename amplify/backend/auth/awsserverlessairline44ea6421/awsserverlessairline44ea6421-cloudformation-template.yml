@@ -219,7 +219,7 @@ Resources:
               - ' }'
               - '};'
       Handler: index.handler
-      Runtime: nodejs15.x
+      Runtime: nodejs16.x
       Timeout: '900'
       Role:
         Fn::GetAtt:
